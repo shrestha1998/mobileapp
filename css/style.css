@@ -10,6 +10,12 @@ body{
     background-repeat: no-repeat;
 }
 
+@media screen and (max-width:480px){
+    body{
+        background-position: 50% 0%;
+    }
+}
+
 .w_body{
     background-color: rgba(105, 105, 105, 0.151);
     margin: 15px;
